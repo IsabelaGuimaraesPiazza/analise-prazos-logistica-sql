@@ -1,0 +1,10 @@
+CREATE TABLE ENTREGAS_PRAZOS (
+    id_pedido INT PRIMARY KEY,
+    cliente VARCHAR(100),
+    data_compra DATE,
+    data_entrega DATE
+);
+
+INSERT INTO ENTREGAS_PRAZOS VALUES (1, 'Isabela Piazza', '2026-11-01', '2026-11-05'); 
+INSERT INTO ENTREGAS_PRAZOS VALUES (2, 'Rodrigo Melo', '2026-11-10', '2026-11-18');   
+INSERT INTO ENTREGAS_PRAZOS VALUES (3, 'Beatriz Santos', '2026-11-15', '2026-11-16'); 
